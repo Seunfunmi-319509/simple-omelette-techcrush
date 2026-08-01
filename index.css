@@ -38,7 +38,7 @@ body{
 
 h1{
     font-family: my-Young-Serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 p {
@@ -55,6 +55,10 @@ p {
     box-sizing: border-box;
 }
 
+.ingredients, .instructions{
+border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
 h3{
     font-size: 20px;
     color: hsl(332, 51%, 32%);
@@ -68,10 +72,30 @@ li{
 h2{
     font-family: my-Young-Serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     color: hsl(14, 45%, 36%);
 }
 
 span{
     font-weight: bold;
 }
+
+.nutrition table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition tr{
+   border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition td{
+   padding: 12px 14px;
+}
+
+.measurement{
+   color: hsl(14, 45%, 36%);
+   font-weight: bold;
+} 
+
+
